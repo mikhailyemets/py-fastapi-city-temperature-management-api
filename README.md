@@ -1,6 +1,7 @@
 # FastAPI City Temperature Management API
 
-This project is a FastAPI-based application that handles city information and their associated temperature data. The application is divided into two main parts:
+This project is a FastAPI-based application that handles city information
+and their associated temperature data. The application is divided into two main parts:
 
 1. A CRUD API for city data management.
 2. An API to fetch and store current temperature data for all cities in the database, along with endpoints to access the historical temperature records.
@@ -33,7 +34,7 @@ This project is a FastAPI-based application that handles city information and th
    ```bash
    WEATHER_API_KEY=your_weather_api_key
    WEATHER_API=https://api.weatherapi.com/v1/current.json
-   DB_URL
+   DB_URL=db_url_from_settings
 
 ### Running the Application
 
